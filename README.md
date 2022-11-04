@@ -2,6 +2,8 @@
 
 The official Python-Markdown "footnotes" extension, with additional options.
 
+Matches version 3.4.1 of [Python-Markdown](https://python-markdown.github.io/).
+
 ## Installation
 
 Install the package with pip:
