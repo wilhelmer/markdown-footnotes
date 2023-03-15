@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='markdown-footnotes',
-    version='0.1.0',
+    version='0.1.1',
     description= 'The official Python-Markdown "footnotes" extension, with additional options.',
     long_description='',
     url='https://github.com/wilhelmer/markdown-footnotes.git',
