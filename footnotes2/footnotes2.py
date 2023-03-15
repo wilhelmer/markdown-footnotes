@@ -325,9 +325,9 @@ class FootnoteInlineProcessor(InlineProcessor):
             idx = list(self.footnotes.footnotes.keys()).index(id) + 1
             if self.footnotes.getConfig("USE_LETTERS") and idx <= 26:
                 d = dict(enumerate(string.ascii_lowercase, 1))
-                text = util.text_type(d[idx])
+                text = str(d[idx])
             else:
-                text = util.text_type(idx)
+                text = str(idx)
             a.text = self.footnotes.getConfig("SUPERSCRIPT_TEXT").format(text)
             return sup, m.start(0), m.end(0)
         else:
